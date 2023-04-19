@@ -1,0 +1,172 @@
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(227, 235, 243);
+}
+ .titulo{
+    color:rgb(20, 20, 20);
+    background-color: rgb(128, 172, 238);
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    margin: 0px;
+    font-family: sans-serif;
+ }
+ h1{
+    font-size: 34px;
+ }
+
+.btn-dark{
+    background-color: red;
+    margin-bottom: 10px;
+    height:20px;
+    width:90px;
+    margin-top: 10px;
+    color:white;
+}
+
+.formulario{
+    display:flex;
+    margin: 0 340px;
+    padding: 0 30px;
+    border-radius:10px;
+    border: 5px solid rgb(2, 2, 83);
+    background-color: rgb(175, 206, 241);
+    color:rgb(2, 2, 83);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.formulario input{
+    display:block;
+    margin:5px;
+    width:350px;
+    padding:5px;
+    border-radius: 5px;
+    border:1px solid gray;
+}
+
+.columna3 input{
+    width:50px;
+    margin-left: 10px;
+}
+
+.formulario select{
+    display:block;
+    margin:5px;
+    width:360px;
+    padding:5px;
+    border-radius: 5px;
+    border:1px solid gray;
+}
+
+.error{
+    background:rgb(247, 151, 151);
+    border:15px solid red;
+}
+
+.columna1{
+    width: 400px;
+}
+
+.columna2{
+    width: 400px;
+}
+
+.columna3{
+    width: 400px;
+}
+
+#promedio{
+    
+    text-align: center;
+
+    font-size: 20px;
+}
+
+h4{
+    padding-top: 0px;
+    text-align: center;
+}
+
+.o{
+    display:flex;
+    padding-top: 15px;
+    padding-left: 60px;
+}
+
+.o input{
+    font-size: 20px;
+    text-align: center;
+}
+
+.boton button{
+    font-size: 15px;
+    background-color:rgb(2, 2, 83);
+    color:white;
+    height: 40px;
+    border:solid white;
+    border-radius:5px;
+    margin-left: 80px;
+    text-transform: uppercase;
+    cursor:pointer;
+    width: 180px;
+    }
+
+.boton{
+    margin: 0 340px;
+    padding: 0 30px;
+    padding-bottom: 10px;
+    border: 5px solid rgb(2, 2, 83);
+}
+
+.container{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+table{
+    table-layout: fixed;
+    width: 1900px;
+    padding-left: 35px;
+    margin: 5px;
+    border:2px black
+}
+
+th, td {
+    border: 1px solid black;
+    width: 100px;
+    word-wrap: break-word;
+}
+
+
+.aprobar{
+    color:green;
+    margin:0px;
+}
+
+.reprobar{
+    color:red;
+    margin:0px;
+}
+
+.titulo4{
+    background-color:rgb(128, 172, 238);
+    color:rgb(2, 2, 83);
+}
+
+
+    datos {border:1px solid #ccc;padding:10px;font-size:1em;}
+
+    datos tr:nth-child(even) {background:#ccc;}
+    
+    datos td {padding:5px;}
+    
+    datos tr.noSearch {background:White;font-size:0.8em;}
+    
+    datos tr.noSearch td {padding-top:10px;text-align:right;}
+    
+    .hide {display:none;}
+    
+    .red {color:black}
